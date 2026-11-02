@@ -18,5 +18,5 @@ class BankAccount:
             print("Invalid withdrawal amount.")
 
     def __str__(self):
-        return f"Account owner: {self.owner}, Balance: {self.balance}"
+        return f"Account owner: {self.owner}, Balance: {self.balance}."
 
